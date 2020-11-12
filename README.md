@@ -1,6 +1,6 @@
 Datathon Challenge 
 
-Data Parsing, Cleansing and Prediction
+Data Parsing, Cleansing and Prediction.
 
 Overview:
 Since mid-march, the National Cabinet of Australia deployed a set of key preventative measures such as social distancing, 
@@ -21,7 +21,7 @@ Task 1:Auditing and cleansing the loaded data
 The data i am using is hourly power consumption data from AEMO. Energy consumtion has some unique charachteristics. 
 To make my task simpler and easier to visualize, I will only keep the columns SETTLEMENTDATE and Total Demand.  Now  i have 
 created a time series features from SETTLEMENTDATE and then resample it. Resampling the data gives me the average Electricity consumption 
-every day.
+of each day.
 
 
 As Temperature has a major role in energy consumption, i will add the minimum and maximum temperatures adjacent to the date column. 
@@ -40,8 +40,7 @@ https://info.australia.gov.au/about-australia/special-dates-and-events/public-ho
 Task 2: Predicting Energy Demand 
 
 I will use three models to predict the consumption of electricity. As the data after resampling has only 5000 rows, predictions made by neural network were not satisfactory. 
-As the data is in the tablar, i used random forest and XGboost models to predict the demand. Finally used Tableau to build an 
-application where anyone can compared daily, monthly and quarterly predicted values with actual demand.
+As the data is in the table format, its better to use random forest and XGboost models to get more precise results. Finally used Tableau to build an application where anyone can compared daily, monthly and quarterly predicted values with actual demand.
 https://public.tableau.com/profile/shahryar.abbas.mirza#!/vizhome/Book1_16050151563700/Dashboard2?publish=yes
 
 It is encouraging to see that, so far, overall demand has not dropped as significant as in some other countries. However the impacts of the pandemic on individual sectors are dramatic, and it is important to monitor the situation.
