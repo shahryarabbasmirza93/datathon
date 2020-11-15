@@ -43,9 +43,4 @@ I will use three models to predict the consumption of electricity. As the data a
 As the data is in the table format, it’s better to use random forest and XGBoost models to get more precise results. Finally used Tableau to build an application where anyone can compare daily, monthly and quarterly predicted values with actual demand.
 https://public.tableau.com/profile/shahryar.abbas.mirza#!/vizhome/Book1_16050151563700/Dashboard2?publish=yes
 
-Coding is done in Google Colab.
 
-
-Conclusion:
-
-It is encouraging to see that, so far, overall demand has not dropped as significant as in some other countries. However the impacts of the pandemic on individual sectors are dramatic, and it is important to monitor the situation.
